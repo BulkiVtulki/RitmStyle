@@ -1,0 +1,28 @@
+.about {
+    margin-top: 150px;
+    &__wrapper {
+        max-width: 1075px;
+        margin: 100px auto 0;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template: repeat(2, minmax(365px, auto))/ repeat(2, minmax(auto, 526px));
+        row-gap: 100px;
+        column-gap: 24px;        
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    &__text {
+        margin-top: 30px;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+}

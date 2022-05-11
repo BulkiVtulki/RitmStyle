@@ -1,0 +1,27 @@
+
+@import "base/mixins";
+@import "base/variables";
+
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #162831;;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0;
+    margin: 0px auto;
+}
+
+@import "blocks/title";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/sessions";
+@import "blocks/reviews";
+@import "blocks/about";
+
+@import "base/media";

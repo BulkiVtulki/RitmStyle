@@ -1,0 +1,31 @@
+.sessions {
+    margin-top: 150px;
+    &__wrapper {
+        margin-top: 100px;
+        display: grid;
+        grid-template: repeat(2, minmax(auto, 258px)) / repeat(3, minmax(auto, 416px));
+        gap: 24px 24px;
+
+    }
+    &__item {
+        position: relative;
+        background: url('../../img/sessions_bg_min.png') center (center/cover) no-repeat;
+        &:first-child {
+            background: url('../../img/sessions_bg.png') center (center/cover) no-repeat;
+            grid-row: 1 / 3;
+            &>div {
+                left: 50px;
+                bottom: 50px;
+            }
+        }
+    }
+    &__name {
+        left: 40px;
+        bottom: 30px;
+        position: absolute;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+}

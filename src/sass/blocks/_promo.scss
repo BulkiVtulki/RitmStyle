@@ -1,0 +1,32 @@
+.promo {
+    margin-top: 50px;
+    .container {
+        height: 600px;
+        background: url('../../img/promo_bg.png') center (center/cover) no-repeat;
+    }
+    &__subtitle {
+        padding-top: 136px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__descr {
+        margin: 0 66px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__leaf_right {
+        transform: scaleX(-1);
+    }
+    &__title {
+        margin-top: 40px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}

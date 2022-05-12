@@ -1,0 +1,20 @@
+.contacts {
+    margin-top: 150px;
+    &__wrapper {
+        display: grid;
+        grid-template: repeat(2, 290px) / 856px 392px;
+        row-gap: 24px;
+        column-gap: 45px;
+    }
+    &__item {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    &__map {
+        grid-row: 1 / 3;
+    }
+    &__bcard {
+        padding: 35px 45px;
+        background-color: $main-color;
+    }
+}

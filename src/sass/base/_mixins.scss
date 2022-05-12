@@ -1,0 +1,6 @@
+@mixin hover-link {
+    transition: all 1s;
+    &:hover {
+        color: $main-color;
+    }
+}

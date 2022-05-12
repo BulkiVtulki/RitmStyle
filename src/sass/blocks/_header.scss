@@ -12,11 +12,12 @@
         height: 100%;
     }
     &__menu {
-        padding: 0 214px;
         ul {
             display: flex;
             list-style-type: none;
             li {
+                font-family: 'Proxima Nova', sans-serif;
+                font-weight: 400;
                 margin-right: 50px;
                 &:last-child {
                     margin-right: 0;
@@ -27,10 +28,7 @@
                     font-size: 14px;
                     line-height: 135%;
                     color: #FFFFFF;
-                    transition: all .5s;
-                    &:hover {
-                        color: $main-color;
-                    }
+                    @include hover-link;                    
                 }
             }
         }
@@ -41,11 +39,13 @@
         background-color: $main-color;
         border: 0;
         border-radius: 3px;
+        font-family: 'Proxima Nova', sans-serif;
         font-weight: 600;
         font-size: 13px;
         line-height: 140%;
         color: #FFFFFF;
         cursor: pointer;
+        transition: all .5s;
         &:hover {
             border: 2px solid rgb(53, 52, 52);
         }

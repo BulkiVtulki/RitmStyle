@@ -1,12 +1,59 @@
 .reviews {
     margin-top: 150px;
     &__carousel {
-        margin-top: 50px;
-        text-align: center;
-        font-weight: 700;
-        font-size: 42px;
-        line-height: 140%;
-        text-align: center;
-        color: #FFFFFF;
+        margin: 100px auto 0;
+        width: 90%;
+    }
+    .swiper {
+        padding-bottom: 50px;
+        &-wrapper {
+            // justify-content: center;
+        }
+        &-slide {
+            
+        }
+        &-item {
+            opacity: 0.5;
+            transform: scale(1);
+            width: 500px;
+        }
+    }
+    .swiper-item {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        background-color: $main-color;
+        border-radius: 10px;
+        // padding: 50px 60px 10px;
+        transition: all 0.3s ease-in-out;
+        h2 {
+            // max-width: 516px;
+            text-align: left;
+            width: 100%;
+            font-family: 'Proxima Nova';
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+        p {
+            margin-top: 20px;
+            // max-width: 516px;
+            text-align: left;
+            font-family: 'Proxima Nova';
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+    }
+    
+    .swiper-slide-active .swiper-item {
+        transform: scale(1.25);
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet {
+        border-radius: 2px;
     }
 }

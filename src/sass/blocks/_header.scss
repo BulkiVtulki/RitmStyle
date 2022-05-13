@@ -1,4 +1,9 @@
 .header {
+    hr {
+        margin-top: 30px;
+        opacity: 0.5;
+        border: 1px solid #FFFFFF;
+    }
     &__wrapper {
         margin-top: 30px;   
         height: 60px;
@@ -45,7 +50,7 @@
         line-height: 140%;
         color: #FFFFFF;
         cursor: pointer;
-        transition: all .5s;
+        transition: all;
         &:hover {
             border: 2px solid rgb(53, 52, 52);
         }

@@ -1,0 +1,17 @@
+.format {
+    margin-top: 60px;
+    &__wrapper {
+        margin-top: 60px;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template: auto / 526px 636px;
+    }
+    &__name {
+        margin-top: 45px;
+    }
+    &__descr {
+        width: 100%;
+        font-size: 16px;
+    }
+}

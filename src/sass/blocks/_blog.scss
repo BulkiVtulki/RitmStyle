@@ -1,0 +1,51 @@
+.blog {
+    &__title {
+        margin-top: 60px;
+    }
+    &__item {
+        &-wrapper {
+            // width: 100%;
+            padding: 50px 60px;
+            border: 2px solid $main-color;
+            border-radius: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(auto, 564px));
+            justify-content: space-between;
+            align-items: flex-start;
+            column-gap: 50px;
+            &:first-child {
+                margin: 65px 0 45px 0;
+            }
+        }
+    }
+    &__img {
+        width: 100%;
+    }
+    &__name {
+        margin-top: 30px;
+    }
+    &__descr {
+        width: 100%;
+        font-size: 16px;
+    }
+    &__button {
+        margin-top: 40px;
+        width: 134px;
+        height: 39px;
+        background: $main-color;
+        border-radius: 5px;
+        border: none;
+        &:hover {
+            border: 2px solid rgb(53, 52, 52);
+        }
+    }
+    &__link {
+        font-family: 'Proxima Nova';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 135%;
+        color: #FFFFFF;
+        text-decoration: none;
+
+    }
+}

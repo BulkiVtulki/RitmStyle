@@ -15,35 +15,22 @@
         &:first-child { 
             grid-row: 1 / 3;
             a {                
-                line-height: 39;                
-                text-indent: 50px;
-                background: url('../img/sessions_bg.png') center (center/cover) no-repeat; 
-                background-size: 100%;    
-                &:hover {
-                    background-size: 140%;
-                }
+                position: absolute;
+                bottom: 50px;
+                left: 50px;
             }
-        }
-        &:hover {
-            border-bottom: 7px solid $main-color;
         }
     }
     &__name {
-        background: url('../img/sessions_bg_min.png') center (center/cover) no-repeat;
-        display: block;
-        width: 100%;
-        height: 100%; 
+        position: absolute;
+        bottom: 30px;
+        left: 40px;
         font-family: 'El Messiri', sans-serif;       
         font-weight: 700;
-        line-height: 18;
         font-size: 24px;
         color: #FFFFFF;
-        text-indent: 40px;
-        text-decoration: none;
         @include hover-link;
-        background-size: 100%;
-        &:hover {
-            background-size: 140%;
-        }
+        text-decoration: none;
+        line-height: 140%;
     }
 }
